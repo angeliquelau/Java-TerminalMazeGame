@@ -1,7 +1,6 @@
 
-WHAT IS NOT COMPLETED IN TIME: (So sorry I couldnt finish in time. I really tried to finish
-in time but I still end up running out of time for complete it)
-- cannot get key (got error. no time to fix)
+WHAT IS NOT COMPLETED:
+- cannot get key
 - no messages printed
 
 Criteria:
