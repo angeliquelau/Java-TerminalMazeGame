@@ -1,0 +1,60 @@
+
+WHAT IS NOT COMPLETED IN TIME: (So sorry I couldnt finish in time. I really tried to finish
+in time but I still end up running out of time for complete it)
+- cannot get key (got error. no time to fix)
+- no messages printed
+
+Criteria:
+2) Appropriate use of containers
+- I used Lists to save the details of my map objects in MapObj.
+- I used Map for my movements. Using this container, it allows me to easily get which movement
+that I currently need.
+- For storing the keys the player need to find and the keys obtained by the player, I used Map
+to store them. This is because it will be easier to search through the key I am finding unlike
+linkedlist where I will need to iterate through the list to find the key.
+
+3) Clear and distinct class/interface/method responsibilities.
+- class:
+ - AssignmentException: this class is used for exceptions.
+
+- Interfaces:
+ - ObjectInterface: Includes methods that will allow me to get the details of an object. This is
+ the interface class for my decorator pattern.
+ - Movement: Includes the different movement methods where its either player moving north, south,
+ east or west.
+
+- Abstract:
+ - Objects: An abstract class that includes subclasses of the objects: Player.java, Key.java,
+ Door.java and Wall.java. In each subclasses stores each objects' details.
+
+- Methods:
+ - print() method is one of the methods in the decorator pattern. This method is used to
+ create out the whole map.
+ - updatedPrint() method is a method used to update the new position of the player.
+
+4) Appropriate error handling and logging.
+- In main, I used error logging to check if I have successfully saved the data of the
+map. 
+- I handled IOException when reading the file in my readFile() method in main. The logs are
+printed into "logs.txt" which can be found from my assignment folder
+- For my movements, to ensure user do not go beyond the border or go through wall, I have placed 
+an exception for that too.
+
+5) Appropriate use of the Strategy Pattern and/or Template Method  Pattern.
+- I used Strategy Pattern for this assignment. This pattern is used for my player movements
+where it depends on where the player wants to move to. My interface is Movement.java and my subclasses
+are North.java, South.java, East.java, West.java. In each subclasses, it checks whether player can 
+pass through doors with their collected keys or not. It also makes sure user dont try to pass through
+walls.
+
+6) Appropriate use of the Decorator Pattern.
+- For this assignment, I used the Decorator Pattern for the map, where I store the objects of the
+map using this pattern. ObjectInterface.java is my interface class, Objects.java is my abstract class,
+Key.java, Player.java, Wall.java and Door.java are my subclasses of my Objects.java. Each of these
+subclasses stores the details of that object. PlainMap.java is my concrete class for this
+pattern.
+
+Extra:
+For me, I am only able to print out my unicodes using a linux system. In Windows, it keeps printing out "?" only 
+for each unicodes.
+

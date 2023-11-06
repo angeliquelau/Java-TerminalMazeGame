@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.43.0" timestamp="2022-03-08T09:19:43.907">
+<file name="C:\Users\Angelique\OneDrive\Documents\curtin\Y2S2\OOSE\worksheet\W1\worksheet1_addressbook\src\main\java\AddressBook.java">
+<violation beginline="20" endline="20" begincolumn="21" endcolumn="47" rule="UseDiamondOperator" ruleset="Code Style" package="edu.curtin.addressbook" class="AddressBook" method="AddressBook" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="21" endline="21" begincolumn="22" endcolumn="43" rule="UseDiamondOperator" ruleset="Code Style" package="edu.curtin.addressbook" class="AddressBook" method="AddressBook" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="74" endline="82" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="edu.curtin.addressbook" class="AddressBook" method="findByEmail" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+</file>
+<file name="C:\Users\Angelique\OneDrive\Documents\curtin\Y2S2\OOSE\worksheet\W1\worksheet1_addressbook\src\main\java\AddressBookApp.java">
+<violation beginline="18" endline="18" begincolumn="16" endcolumn="24" rule="UnusedLocalVariable" ruleset="Best Practices" package="edu.curtin.addressbook" class="AddressBookApp" method="main" variable="entryName" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'entryName'.
+</violation>
+<violation beginline="57" endline="57" begincolumn="42" endcolumn="64" rule="UseDiamondOperator" ruleset="Code Style" package="edu.curtin.addressbook" class="AddressBookApp" method="readAddressBook" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="86" endline="86" begincolumn="17" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="edu.curtin.addressbook" class="AddressBookApp" method="showMenu" variable="option" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'option'.
+</violation>
+</file>
+<file name="C:\Users\Angelique\OneDrive\Documents\curtin\Y2S2\OOSE\worksheet\W1\worksheet1_addressbook\src\main\java\Entry.java">
+<violation beginline="21" endline="21" begincolumn="17" endcolumn="39" rule="UseDiamondOperator" ruleset="Code Style" package="edu.curtin.addressbook" class="Entry" method="Entry" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by Diamond Operator
+</violation>
+<violation beginline="67" endline="75" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="edu.curtin.addressbook" class="Entry" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'toString()' is missing an @Override annotation.
+</violation>
+<violation beginline="70" endline="73" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="edu.curtin.addressbook" class="Entry" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+</file>
+</pmd>
